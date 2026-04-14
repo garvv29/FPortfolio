@@ -5,22 +5,27 @@ import { config } from "../config";
 
 const WhatIDo = () => {
   const containerRef = useRef<(HTMLDivElement | null)[]>([]);
+  const handlersRef = useRef<((container: HTMLDivElement) => void)[]>([]);
+
   const setRef = (el: HTMLDivElement | null, index: number) => {
     containerRef.current[index] = el;
   };
+
   useEffect(() => {
-    if (ScrollTrigger.isTouch) {
-      containerRef.current.forEach((container) => {
-        if (container) {
-          container.classList.remove("what-noTouch");
-          container.addEventListener("click", () => handleClick(container));
-        }
-      });
-    }
+    containerRef.current.forEach((container, index) => {
+      if (container) {
+        container.classList.add("what-noTouch");
+        
+        const handler = () => handleClick(container);
+        handlersRef.current[index] = handler;
+        container.addEventListener("click", handler);
+      }
+    });
+
     return () => {
-      containerRef.current.forEach((container) => {
-        if (container) {
-          container.removeEventListener("click", () => handleClick(container));
+      containerRef.current.forEach((container, index) => {
+        if (container && handlersRef.current[index]) {
+          container.removeEventListener("click", handlersRef.current[index]);
         }
       });
     };

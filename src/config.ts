@@ -1,191 +1,164 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Garv",
+        fullName: "Garv Choure",
+        title: "Full-Stack & Mobile Developer",
+        description: "Full-Stack and Mobile Developer with expertise in React, Flutter, Node.js, and PHP. Passionate about building innovative solutions for healthcare, education, and governance sectors."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "garvChoure",
+        email: "s4mbh4v@gmail.com",
+        location: "Raipur, Chhattisgarh"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "Full-Stack & Mobile Developer focused on building scalable, real-world solutions.\n\nWorked on 5+ production platforms across healthcare, education, and governance by translating complex problems into efficient systems. Skilled in React, Flutter, Node.js, Django, PHP, and MySQL, with a strong interest in AI/ML integration.\n\nI love solving DSA problems and building products that actually matter. Let's create something incredible together."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "App/Web Development Trainee",
+            company: "VNR Seeds Private Limited",
+            period: "Feb - Present",
+            location: "Bhilai, Chhattisgarh",
+            description: "Working on production-level enterprise applications, large-scale databases, PHP, and automation systems using QR code tracking.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Debugging production-level enterprise applications",
+                "Working with large-scale databases and backend environments",
+                "Automating store and inventory processes using QR code tracking",
+                "Collaborating with multidisciplinary technical teams"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["PHP", "Flutter", "Java", "MySQL", "QR Code", "Database Management"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            position: "Web Development Trainee",
+            company: "Skyvo Technologies Pvt. Ltd.",
+            period: "Jul - Aug 2025",
+            location: "Raipur, Chhattisgarh",
+            description: "Integrated frontend with backend services, developed full-featured ecommerce platform with enhanced UI/UX design.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Integrating frontend with backend services using APIs",
+                "Developing full-featured ecommerce website",
+                "Enhancing UI/UX design using HTML, CSS, Bootstrap",
+                "Building key modules: Home, Menu, Cart, Payment"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: ["React", "PHP", "HTML", "CSS", "Bootstrap", "APIs", "Digital Wallet"]
         },
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            position: "App/Web Developer",
+            company: "Government Projects",
+            period: "May - Aug 2025",
+            location: "Raipur, Chhattisgarh",
+            description: "Worked on 5+ live public-facing platforms across healthcare, education, and governance sectors with AI integration.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Developing mobile apps and admin dashboards",
+                "Integrating AI features like plant health detection and text-to-speech",
+                "Implementing real-time analytics and tracking",
+                "Building bilingual apps for community engagement"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
+            technologies: ["React", "Flutter", "Node.js", "PHP", "MySQL", "Firebase", "AI/ML"]
         },
         {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
+            position: "Student | Learning & Development",
+            company: "SSIPMT & Self-Learning",
+            period: "2023 - 2027",
+            location: "Raipur, Chhattisgarh",
+            description: "Currently pursuing BTech in Computer Science with focus on practical application development and problem-solving.",
             responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
+                "Pursuing Bachelor of Technology in Computer Science",
+                "Completing coursework and building practical projects",
+                "Participating in competitions and certifications",
+                "Learning emerging technologies and frameworks"
             ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["DSA", "Data Structures", "Algorithms", "Computer Networks", "Operating Systems"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            title: "Har Ghar Munga",
+            category: "Mobile & Web App",
+            technologies: "Flutter, PHP, React, MySQL, Admin Panel",
+            image: "/images/har-ghar-munga.png",
+            description: "A comprehensive bilingual nutrition awareness app promoting Moringa plantation in anganwadis. Features AI-based plant health detection with student progress tracking and admin panel for district officials."
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
+            title: "Faculty Activity Management",
+            category: "Web Application",
+            technologies: "PHP, MySQL, Dashboard",
+            image: "/images/faculty-activity.png",
+            description: "Web application built for SSIPMT to centrally manage faculty academic and research records. Allows faculty to submit publications, conferences, FDPs, books, patents, and administrative activities with transparency tracking."
         },
         {
             id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
+            title: "Green Palna",
+            category: "Social Impact",
+            technologies: "React, Flutter, PHP, MySQL, AI",
+            image: "/images/green-palna.png",
+            description: "Community-driven environmental platform promoting sustainable practices and sapling tracking with real-time growth monitoring."
         },
         {
             id: 4,
-            title: "GameKroy",
+            title: "Digital Wallet System",
             category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
+            technologies: "React, Node.js, MySQL, Payment Integration",
+            image: "/images/digital-wallet.png",
+            description: "Fully functional digital wallet system with secure payment processing, transaction tracking, and user authentication."
         },
         {
             id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
+            title: "Harihar Pathshala",
+            category: "Educational Platform",
+            technologies: "React, PHP, MySQL",
+            image: "/images/harihar-pathshala.png",
+            description: "Educational platform designed to support learning in schools with lesson management and student tracking capabilities."
         },
         {
             id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
+            title: "Smriti Pustaklaya",
+            category: "Digital Library",
+            technologies: "React, Node.js, MongoDB, Firebase",
+            image: "/images/smriti-pustaklaya.png",
+            description: "Digital library platform for managing and accessing educational resources with search and categorization features."
         },
         {
             id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
+            title: "Kin Jewellery App",
+            category: "Mobile App",
+            technologies: "Flutter, Firebase, MySQL",
+            image: "/images/kin-jewellery.png",
+            description: "E-commerce mobile application for jewelry business with product catalog, cart management, and secure payment integration."
         },
         {
             id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
+            title: "Government Applications Suite",
+            category: "Healthcare & Governance",
+            technologies: "React, Flutter, Node.js, PHP, MySQL, AI/ML",
+            image: "/images/gov-apps.png",
+            description: "Suite of 5+ applications for healthcare, education, and governance sectors with AI features like plant health detection and real-time analytics."
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "s4mbh4v@gmail.com",
+        github: "https://github.com/garvv29",
+        linkedin: "https://www.linkedin.com/in/garv-choure-807870335/",
+        leetcode: "https://leetcode.com/u/g4rvvv/",
+        facebook: "https://www.facebook.com/garv-choure",
+        instagram: "https://www.instagram.com/actuallygarv/",
+        resume: "https://drive.google.com/file/d/17mEMEuADDo1c6NJX7fEiSO1JO2sX4rfX/view?usp=sharing"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "FULL-STACK DEVELOPER",
+            description: "Modern web & mobile development",
+            details: "Building responsive web applications using React, Node.js, and PHP. Developing cross-platform mobile apps with Flutter and React Native. Creating RESTful APIs, managing databases, and ensuring scalable architecture.",
+            tools: ["React.js", "Node.js", "PHP", "Flutter", "React Native", "JavaScript", "TypeScript", "REST APIs", "Firebase", "MySQL"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "BACKEND & DATABASE",
+            description: "Robust server-side systems",
+            details: "Designing and implementing backend solutions with Node.js and PHP. Managing databases with MySQL and Firebase. Building secure authentication systems, APIs, and optimized data queries for high-performance applications.",
+            tools: ["MySQL", "Firebase", "Node.js", "PHP", "SQL", "Database Design", "Authentication", "cPanel", "QR Code Integration", "Git"]
         }
     }
 };
