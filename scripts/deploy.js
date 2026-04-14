@@ -21,10 +21,18 @@ try {
   console.log('2️⃣  Copying dist to /docs...');
   const distPath = path.join(__dirname, '../dist');
   fs.cpSync(distPath, docsPath, { recursive: true });
+  
+  // Step 3: Copy CNAME file to preserve custom domain
+  console.log('3️⃣  Adding CNAME for custom domain...');
+  const cnameSrc = path.join(__dirname, '../CNAME');
+  const cnameDest = path.join(docsPath, 'CNAME');
+  if (fs.existsSync(cnameSrc)) {
+    fs.copyFileSync(cnameSrc, cnameDest);
+  }
   console.log('✅ Copied successfully!\n');
   
-  // Step 3: Git operations
-  console.log('3️⃣  Committing changes...');
+  // Step 4: Git operations
+  console.log('4️⃣  Committing changes...');
   execSync('git add docs/', { stdio: 'inherit' });
   
   const commitMsg = `Deploy: ${new Date().toLocaleString()}`;
@@ -34,7 +42,7 @@ try {
     console.log('   (No changes to commit - docs already up to date)');
   }
   
-  console.log('4️⃣  Pushing to GitHub...');
+  console.log('5️⃣  Pushing to GitHub...');
   execSync('git push origin live', { stdio: 'inherit' });
   
   console.log('\n✅ ✅ ✅ DEPLOYMENT COMPLETE! ✅ ✅ ✅');
