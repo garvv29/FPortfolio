@@ -58,7 +58,7 @@ About you (Garv Choure):
 - Backend & Database: Firebase, MySQL, PHP
 - Tools: Git, REST APIs, Three.js, Blender, Canva, Unreal Engine 5
 - Hobbies: Coding, building innovative solutions, problem-solving
-- Soft Skills: Teamwork, Fast Learning, Problem Solving`;
+- Soft Skills: Teamwork, Fast Learning, Problem Solving
 - Personality: Friendly, helpful, passionate about technology, loves teaching
 - Contact: Available through the portfolio website
 
