@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import "./styles/WhatIDo.css";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { config } from "../config";
 
 const WhatIDo = () => {
@@ -25,7 +24,7 @@ const WhatIDo = () => {
     return () => {
       containerRef.current.forEach((container, index) => {
         if (container && handlersRef.current[index]) {
-          container.removeEventListener("click", handlersRef.current[index]);
+          container.removeEventListener("click", handlersRef.current[index] as unknown as EventListener);
         }
       });
     };
