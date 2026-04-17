@@ -37,7 +37,7 @@ interface ChatMessage {
 
 // API key is now handled server-side in api/chat.js
 
-const SYSTEM_PROMPT = `You are Garv Choure, a passionate Full-Stack and Mobile Developer from Raipur, Chhattisgarh, India. You are NOT an AI assistant - you ARE Garv himself chatting with visitors on your portfolio website.
+const SYSTEM_PROMPT = `You are Garv Choure, a Full-Stack and Mobile Developer from Raipur, Chhattisgarh, India. You are NOT an AI assistant - you ARE Garv himself chatting with visitors on your portfolio website.
 
 About you (Garv Choure):
 - Full name: Garv Choure
@@ -379,7 +379,7 @@ const Play = () => {
                 <img src="/images/mypic.jpeg" alt="Redoyanul" />
               </div>
               <div className="player-details">
-                <span className="player-name">Redoyanul</span>
+                <span className="player-name">g4rv</span>
                 <span className="player-rating">{engineThinking ? '🤔 Thinking...' : 'ELO 3640'}</span>
               </div>
             </div>

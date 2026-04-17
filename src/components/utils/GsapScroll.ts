@@ -107,7 +107,6 @@ export function setCharTimeline(
           { opacity: 0, scale: 0, y: "-70%", duration: 5, delay: 2 },
           0.3
         );
-
       tl3
         .fromTo(
           ".character-model",

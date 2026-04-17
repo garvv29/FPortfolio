@@ -16,8 +16,9 @@ const setCharacter = (
   const loadCharacter = () => {
     return new Promise<GLTF | null>(async (resolve, reject) => {
       try {
+        const timestamp = Date.now(); // Force cache refresh
         const encryptedBlob = await decryptFile(
-          "/models/character.enc",
+          `/models/character.enc?v=${timestamp}`,
           "Character3D#@"
         );
         const blobUrl = URL.createObjectURL(new Blob([encryptedBlob]));
