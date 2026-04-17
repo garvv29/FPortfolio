@@ -117,7 +117,6 @@ export function setCharTimeline(
         .fromTo(".whatIDO", { y: 0 }, { y: "15%", duration: 2 }, 0)
         .to(character.rotation, { x: -0.04, duration: 2, delay: 1 }, 0);
     }
-    
   } else {
     if (character) {
       const tM2 = gsap.timeline({
